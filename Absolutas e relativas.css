@@ -1,0 +1,35 @@
+
+.Vo{}
+
+.pai{
+    width: 50vw;
+    height: 50vh;
+    background: #ff0000;
+    color: #ffffff;
+}
+.filho{
+    width: 50%;
+    height: 50%;
+    background: #0000ff;
+    color: #ffffff;
+}
+
+
+
+/*
+    UNIDADES DE MEDIDAS
+
+
+    => ABSOLUTAS
+        px (pixels)
+        in (inches/polegadas)
+        cm / mm (centimetro / milimetro)
+       
+    => RELATIVAS
+        % calculao tyamanho relativo ao elemento pai
+        vw (view width) 1 vw e 1% da largura do navegador
+        vh (view height)1 vw e 1% da altura do navegador  
+        em é uma unidade relativa do elemento pai
+        rem é uma unidade relativa do elemento raiz
+
+*/        

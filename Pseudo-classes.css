@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a:active{
+    color: red;
+}
+
+a:visited{
+    color: blue;
+}
+
+a:hover{
+    color: red;
+}
+
+input:checked{
+    color: blue;
+}
+
+]input:focus{
+    border: 1px solid red;
+    outline: none;
+}
+
+li:first-child{
+    color: red;
+}
+li:last-child{
+    color: blue;
+}
+span:first-of-type{
+    color: red;
+}
+h:first-of-type{
+    color: blue;
+}
+.Conteiner :not(h){
+    color: red;
+}
+
+li:nth-child(3){
+    color: yellowgreen;
+}
